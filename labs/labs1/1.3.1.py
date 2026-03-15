@@ -103,5 +103,9 @@ def find_max(figures):
     print(max_perimeter.show())
     print("perimeter =", max_perimeter.perimeter())
 
-figures = read_figures("input01.txt ")
+figures = read_figures("input01.txt")
+find_max(figures)
+figures = read_figures("input02.txt")
+find_max(figures)
+figures = read_figures("input03.txt")
 find_max(figures)
