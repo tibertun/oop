@@ -23,9 +23,7 @@ class Digit:
 class ClockFace:
     def __init__(self, radius):
         self.radius = radius
-        self.digits = []
-        for i in range(1, 13):
-            self.digits.append(Digit(i, radius - 25))
+        self.digits = [Digit(i, radius - 25) for i in range(1, 13)]
 
     def draw(self, t):
         t.penup()
@@ -77,13 +75,9 @@ def update():
     minute = now.tm_min
     second = now.tm_sec
 
-    a1 = (hour + minute / 60) * 30
-    a2 = (minute + second / 60) * 6
-    a3 = second * 6
-
-    h1.draw(t2, a1)
-    h2.draw(t2, a2)
-    h3.draw(t2, a3)
+    h1.draw(t2, (hour + minute / 60) * 30)
+    h2.draw(t2,(minute + second / 60) * 6)
+    h3.draw(second * 6)
 
     t2.penup()
     t2.goto(0, 0)

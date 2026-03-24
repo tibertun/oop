@@ -2,10 +2,12 @@ import turtle
 
 t = turtle.Turtle()
 t.speed(0)
+
 class Petal:
     def __init__(self, color, size):
         self.color = color
         self.size = size
+
     def draw(self, t):
         t.color(self.color)
         t.begin_fill()
@@ -18,6 +20,7 @@ class Leaf:
     def __init__(self, color, size):
         self.color = color
         self.size = size
+
     def draw(self, t):
         t.color(self.color)
         t.begin_fill()
@@ -30,6 +33,7 @@ class Leaf:
 class Stem:
     def __init__(self, length):
         self.length = length
+
     def draw(self,t):
         t.color('green')
         t.width(3)
@@ -54,7 +58,8 @@ class Flower:
         for _ in range(6):
             self.petal.draw(t)
             t.left(60)
-        t.color("yellow")
+
+        t.color('yellow')
         t.begin_fill()
         t.goto(self.x, self.y - 10)
         t.circle(10)
