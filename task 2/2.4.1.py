@@ -23,7 +23,8 @@ class Digit:
 class ClockFace:
     def __init__(self, radius):
         self.radius = radius
-        self.digits = [Digit(i, radius - 25) for i in range(1, 13)]
+        for i in range(1, 13):
+            self.digits.append(Digit(i, radius - 25))
 
     def draw(self, t):
         t.penup()
