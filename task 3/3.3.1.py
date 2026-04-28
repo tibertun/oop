@@ -12,9 +12,9 @@ def perimeter_trikutnik(a, b, c):
 def is_normalni_triangle(a, b, c):
     return a > 0 and b > 0 and c > 0 and a+b > c and a+c > b and b+c > a
 
-N_MAXKEY = 25
-MULT = 4
-
+MAX = 25 #масімальний розмір
+MULT = 4 #масштаб
+# фігури = кількість параметрів
 Figures = {"Triangle" : 3,                     # Трикутник
            "Rectangle" : 2,                    # Прямокутник
            "Trapeze" : 4,                      # Трапеція
@@ -40,7 +40,7 @@ def generate(fname, figures_number):
 
             val_num = Figures[figure]
             for i in range(val_num):
-                val = randint(0, N_MAXKEY)
+                val = randint(0, MAX)
                 print("%4d" % val, file=f_out, end=" ")
 
             print(file=f_out)
