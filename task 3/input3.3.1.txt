@@ -1,0 +1,100 @@
+                        Circle    8 
+                        Circle    4 
+                          Cone   21   16 
+               TriangularPrism    8   24   15   23 
+             TriangularPyramid   23   18 
+     RectangularParallelepiped    7   10   20 
+                        Circle    0 
+                       Trapeze   19    5    4   23 
+           QuadrangularPyramid   19   15    3 
+                      Triangle    0    1   19 
+               TriangularPrism   14   21    8    1 
+               TriangularPrism    2    2    4    5 
+     RectangularParallelepiped   25    1    2 
+                        Circle   13 
+             TriangularPyramid   10    2 
+             TriangularPyramid   17    7 
+                        Circle   20 
+               TriangularPrism   12    0   21    8 
+                      Triangle    2    0   25 
+     RectangularParallelepiped   16    2   22 
+                      Triangle   13    8   12 
+                      Triangle   15    1   13 
+                      Triangle   13   18   16 
+                       Trapeze    2   13    9   17 
+                          Cone    0   15 
+                          Cone   24    9 
+           QuadrangularPyramid   15   19   13 
+                        Circle    0 
+     RectangularParallelepiped   20   10    1 
+           QuadrangularPyramid    3   13   21 
+                       Trapeze   14   17   20   25 
+                          Cone   12   17 
+                     Rectangle   21   24 
+                     Rectangle   20    9 
+     RectangularParallelepiped    2    4   10 
+             TriangularPyramid   16   24 
+     RectangularParallelepiped    8   15   12 
+                      Triangle    4   11   10 
+           QuadrangularPyramid   14    1   16 
+             TriangularPyramid    8   14 
+               TriangularPrism   21    7    7    8 
+             TriangularPyramid   23    9 
+                          Ball   13 
+                       Trapeze    1   15   18   16 
+                       Trapeze    7    3   14    8 
+     RectangularParallelepiped   22    6   11 
+     RectangularParallelepiped   13   21    6 
+             TriangularPyramid   12   12 
+             TriangularPyramid   15   17 
+             TriangularPyramid    1    8 
+     RectangularParallelepiped   12    3   20 
+             TriangularPyramid   24   23 
+     RectangularParallelepiped   21    5    3 
+     RectangularParallelepiped   22   23    0 
+                     Rectangle   10   25 
+                       Trapeze   17   12   16   22 
+                      Triangle    3   22    5 
+             TriangularPyramid   23   14 
+                        Circle    5 
+           QuadrangularPyramid   12   15   18 
+     RectangularParallelepiped    9   18   24 
+                 Parallelogram    6   22   21 
+                          Cone   14   19 
+                          Ball   12 
+                     Rectangle   17   19 
+                 Parallelogram   19    0   18 
+                        Circle   21 
+                 Parallelogram    8    0    8 
+                        Circle   24 
+           QuadrangularPyramid   18   10    5 
+           QuadrangularPyramid   17    0   20 
+                        Circle    7 
+                        Circle   17 
+                        Circle    4 
+                          Ball    1 
+                          Cone    4   10 
+           QuadrangularPyramid   17    0    6 
+             TriangularPyramid   25   11 
+                      Triangle    6    4   24 
+                 Parallelogram   24    7   24 
+                          Ball   10 
+           QuadrangularPyramid   12    4    6 
+     RectangularParallelepiped   11   18   13 
+                          Cone    1    7 
+               TriangularPrism    4   20   21   11 
+     RectangularParallelepiped    7   20   19 
+               TriangularPrism   21   24    2   17 
+                        Circle   16 
+                 Parallelogram    1    3    7 
+           QuadrangularPyramid   17   15    6 
+               TriangularPrism    1   10   22   23 
+                     Rectangle    5   21 
+                      Triangle   12    4   13 
+                        Circle   13 
+               TriangularPrism   23   12   19   11 
+                          Ball    4 
+               TriangularPrism   16    7    9   14 
+                          Cone   25    8 
+                        Circle   21 
+                          Ball   16 
